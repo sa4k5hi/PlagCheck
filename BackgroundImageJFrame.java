@@ -26,7 +26,7 @@ class BackgroundImageJFrame extends JFrame implements ActionListener
         setTitle("Files Comparator");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true);
-        setContentPane(new JLabel(new ImageIcon("/home/saakshi/Documents/java_learning/parag_neha_me_jp/razor.jpg")));
+        setContentPane(new JLabel(new ImageIcon("/home/saakshi/Documents/java_learning/razor.jpg")));
         l1 = new JLabel("Select the first file");
         l1.setForeground(Color.WHITE);
         l2 = new JLabel("Select the second file");
